@@ -52,7 +52,9 @@ item Matplotlib.pyplot
 ## More resources
 Data MMSI,Encounter, from https://globalfishingwatch.org/datasets-and-code/ 
 
-Data MPAs from: ????
+Data MPAs from: https://www.protectedplanet.net/en/resources
+
+Data FAO from:https://www.fao.org/fishery/en/area/search
 
 ## About
 BONNER Katelyn, GAMBERONI Anna, BUHIC Davor.
