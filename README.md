@@ -19,19 +19,6 @@ We then created a temporal index to allow our map to become a 'timelapse' and fi
 …
 
 
-# Repository overview
-Provide an overview of the directory structure and files, for example:
-
-├── README.md
-├── data
-├── gen
-│   ├── analysis
-│   ├── data-preparation
-│   └── paper
-└── src
-    ├── analysis
-    ├── data-preparation
-    └── paper
 
 # Running instructions
 Explain to potential users how to run/replicate your workflow. If necessary, touch upon the required input data, which secret credentials are required (and how to obtain them), which software tools are needed to run the workflow (including links to the installation instructions), and how to run the workflow.
