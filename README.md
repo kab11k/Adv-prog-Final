@@ -39,17 +39,17 @@ Explain to potential users how to run/replicate your workflow. If necessary, tou
 # required Software
 ```bash
 pip install Pandas
-``````bash
+
 pip install Folium
-``````bash
+
 pip install Geopandas
-``````bash
+
 pip install Shapely
-``````bash
+
 pip install Pathlib2
-``````bash
+
 .....
-```
+
 
 PackagePandas - version
 item Folium - version
