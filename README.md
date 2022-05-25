@@ -50,11 +50,13 @@ item Matplotlib.pyplot
 
 
 ## More resources
-Data MMSI,Encounter, from https://globalfishingwatch.org/datasets-and-code/ \n
+Data MMSI,Encounter, from https://globalfishingwatch.org/datasets-and-code/ 
+
 Data MPAs from: ????
 
 ## About
 BONNER Katelyn, GAMBERONI Anna, BUHIC Davor.
+
 Project carried out with the help of the University of Lausanne (UNIL), in particular thanks to Professor Simon SCHEINDEGGER and the TAs: Aryan EFTEKHARI , Antoine DIDISHEIM, Aleksandra MALOVA
 
 
