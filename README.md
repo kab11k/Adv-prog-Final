@@ -50,11 +50,11 @@ item Matplotlib.pyplot
 
 
 ## More resources
-Data MMSI,Encounter, from https://globalfishingwatch.org/datasets-and-code/ 
+Data MMSI,Encounter https://globalfishingwatch.org/datasets-and-code/ 
 
-Data MPAs from: https://www.protectedplanet.net/en/resources
+Data MPAs https://www.protectedplanet.net/en/resources
 
-Data FAO from:https://www.fao.org/fishery/en/area/search
+Data FAO https://www.fao.org/fishery/en/area/search
 
 ## About
 BONNER Katelyn, GAMBERONI Anna, BUHIC Davor.
