@@ -38,28 +38,28 @@ Explain to potential users how to run/replicate your workflow. If necessary, tou
 
 # required Software
 ```bash
-pip install foobar
+pip install Pandas
 ``````bash
-pip install foobar
+pip install Folium
 ``````bash
-pip install foobar
+pip install Geopandas
 ``````bash
-pip install foobar
+pip install Shapely
 ``````bash
-pip install foobar
+pip install Pathlib2
 ``````bash
-pip install foobar
+.....
 ```
-#Required Software 
-    \item PackagePandas - version
-    \item Folium - version
-    \item Geopandas - version 
-    \item Shapely - version
-    \item Pathlib2 - version 
-    \item Display from Template from jinja2 - version 
-    \item Datetime - version
-    \item Os
-    \item Matplotlib.pyplot
+
+PackagePandas - version
+item Folium - version
+item Geopandas - version 
+item Shapely - version
+item Pathlib2 - version 
+item Display from Template from jinja2 - version 
+item Datetime - version
+item Os
+item Matplotlib.pyplot
 
 
 ## More resources
