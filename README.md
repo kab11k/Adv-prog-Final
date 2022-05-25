@@ -1,5 +1,5 @@
+
 # Adv-prog-Final
-# Project title 
 Interactive fishing map
 in this project we have set ourselves the goal of understanding and getting people to understand how fishing develops in different parts of the world and how it affects different Marine Protected Areas (MPAs), to do this, we developed a map to show the positioning of boats in the various regions of the world during from 2012 to 2020 and also added a layer showing the different Marine Protected Areas (MPAs)
 
