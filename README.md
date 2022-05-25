@@ -15,7 +15,7 @@ To use this library, we had to convert our data and put it into a 'nested list'.
 For MPAs, we had to use a different approach ...... [ANNA continue].
 We then created a temporal index to allow our map to become a 'timelapse' and finally merged the different databases (fishing effort, encounter and MPAs) into one map.
 
-##Data Description
+## Data description
 …
 
 
