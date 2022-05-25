@@ -63,8 +63,8 @@ item Matplotlib.pyplot
 
 
 ## More resources
-Point interested users to any related literature and/or documentation.
-Data from https://globalfishingwatch.org/datasets-and-code/
+Data MMSI,Encounter, from https://globalfishingwatch.org/datasets-and-code/
+Data MPAs from: ????
 
 ## About
 BONNER Katelyn, GAMBERONI Anna, BUHIC Davor.
