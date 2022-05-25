@@ -50,7 +50,7 @@ item Matplotlib.pyplot
 
 
 ## More resources
-Data MMSI,Encounter, from https://globalfishingwatch.org/datasets-and-code/ /n
+Data MMSI,Encounter, from https://globalfishingwatch.org/datasets-and-code/ \n
 Data MPAs from: ????
 
 ## About
