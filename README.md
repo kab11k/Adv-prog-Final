@@ -19,7 +19,7 @@ We then created a temporal index to allow our map to become a 'timelapse' and fi
 …
 
 
-## Repository overview
+# Repository overview
 Provide an overview of the directory structure and files, for example:
 
 ├── README.md
@@ -33,10 +33,11 @@ Provide an overview of the directory structure and files, for example:
     ├── data-preparation
     └── paper
 
-## Running instructions
+# Running instructions
 Explain to potential users how to run/replicate your workflow. If necessary, touch upon the required input data, which secret credentials are required (and how to obtain them), which software tools are needed to run the workflow (including links to the installation instructions), and how to run the workflow.
 
-##Required Software 
+
+#Required Software 
     \item PackagePandas - version
     \item Folium - version
     \item Geopandas - version 
