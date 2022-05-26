@@ -25,7 +25,17 @@ def user_menu(options):
         
         print("Invlaid Input")
 
+def assign_FAO_area(dataset, data_fao):
+  '''Function to assign a dataframe to the corresponding major FAO area'''
 
+  for index, row in data_fao.iterrows():
+    fao_polygon = row.geometry
+
+    for i, r in dataset.iterrows():
+      MPA_polygon = r.geometry
+
+      if fao_polygon.contains(MPA_polygon):
+        dataset.at[i, 'FAO_area'] = data_fao.at[index, 'F_AREA']
 
         
 def lat_lon(df):
