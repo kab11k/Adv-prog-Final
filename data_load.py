@@ -12,6 +12,7 @@ import folium
 import matplotlib.pyplot as plt
 import numpy as np
 import shapely
+import map_functions
 from google.colab import drive
 drive.mount('/content/gdrive')
 
@@ -93,8 +94,8 @@ fao_area = gpd.read_file(fao_path)
 
 # assign MPA points and polygon to their respective major FAO area
 fao_major = fao_area[fao_area['F_LEVEL']== 'MAJOR']
-assign_FAO_area(gdf_points, fao_major)
-assign_FAO_area(gdf_poly, fao_major)
+map_functions.assign_FAO_area(gdf_points, fao_major)
+map_functions.assign_FAO_area(gdf_poly, fao_major)
 
 # save to shp file
 gdf_points.to_file('/content/gdrive/My Drive/AD_DATA/MPA_FAO_points.shp') 
