@@ -1,5 +1,6 @@
 import geopandas as gpd
 import pandas as pd
+import matplotlib.pyplot as plt
 import shapely
 import folium
 from folium.plugins import HeatMapWithTime
@@ -14,6 +15,13 @@ gdf_FAO_poly = gpd.read_file('data/MPA_FAO_poly.shp')
 gdf_FAO_points = gpd.read_file('data/MPA_FAO_points.shp')#MPA_FAO_poly and MPA_FAO_points contain the FAO defined major marine areas and the corresponding MPAs contained within
 fao_area = gpd.read_file('data/FAO_AREAS_CWP.shp') #contains FAO areas
 
+#display static global plot of all FAO regions and MPAs
+map_functions.map_of_MPA(fao_area, gdf_FAO_poly, gdf_FAO_points)
+
+
+print("Welcome!")
+
+print("Please select the region and year of fishing activity that you would like to view")
 
 #create user map region and data year menu:
 #user map region selection:
