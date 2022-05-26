@@ -1,12 +1,9 @@
 import geopandas as gpd
 import pandas as pd
 import shapely
-import pathlib2 as pl2
 import folium
 from folium.plugins import HeatMapWithTime
 from folium.map import Layer
-from jinja2 import Template 
-from IPython.display import display
 import datetime
 import map_functions
 
