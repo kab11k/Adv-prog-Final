@@ -162,5 +162,20 @@ class HeatMapWithTimeAdditional(Layer):
         self.scale_radius = 'true' if scale_radius else 'false'
         self.use_local_extrema = 'true' if use_local_extrema else 'false'
         self.gradient = gradient
+      
+    
+def map_of_MPA(fao_area, gdf_FAO_poly, gdf_FAO_points):
+  '''The function creates a map with all the MPAs and the borders of the major FAO areas'''
+
+  fao_major = fao_area[fao_area['F_LEVEL']== 'MAJOR']
+
+  world = gpd.read_file(gpd.datasets.get_path('naturalearth_lowres'))
+  fig, ax = plt.subplots(figsize=(24,18))
+  world.plot(ax=ax, alpha=0.3, color='black')
+  gdf_FAO_poly.plot(ax=ax, color='blue', legend=True)
+  gdf_FAO_points.plot(ax=ax, color='blue', legend=True)
+  fao_major.geometry.boundary.plot(color=None,edgecolor='k',linewidth = 1,ax=ax)
+  plt.title('MPA and FAO areas')
+  plt.show()
         
         
