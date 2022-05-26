@@ -1,6 +1,7 @@
 import pandas as pd
 import geopandas as gpd
 import folium
+import matplotlib.pyplot as plt
 import shapely
 from jinja2 import Template 
 from folium.map import Layer
