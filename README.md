@@ -1,5 +1,5 @@
 
-# Interactive fishing map
+# Visualizing Fishing effort
 
 in this project we have set ourselves the goal of understanding and getting people to understand how fishing develops in different parts of the world and how it affects different Marine Protected Areas (MPAs), to do this, we developed a map to show the positioning of boats in the various regions of the world during from 2012 to 2020 and also added a layer showing the different Marine Protected Areas (MPAs)
 
@@ -14,18 +14,18 @@ we thought that using a very simple and intuitive map for the user allows anyone
 To create these maps we first had to filter the data we needed, this was done, as the amount of data was very large, by doing this we made our code more efficient.
 We  decided to use the 'folium' library as it is very intuitive for the user. 
 To use this library, we had to convert our data and put it into a 'nested list'.
-For MPAs, we had to use a different approach ...... [ANNA continue].
 We then created a temporal index to allow our map to become a 'timelapse' and finally merged the different databases (fishing effort, encounter and MPAs) into one map.
 
 
 # Running instructions
+In the terminal you need to run the "main.py" code, 
 
-Explain to potential users how to run/replicate your workflow. If necessary, touch upon the required input data, which secret credentials are required (and how to obtain them), which software tools are needed to run the workflow (including links to the installation instructions), and how to run the workflow.
+Note: data_load.py contains the code to load the raw data files and clean them. This code needs only to be run once for new years of data. Therefore, there is no need to run data_load.py when executing the program (unless you have new years of data to include)
 
 # Required software
 
 ```bash
-pip install Pandas
+pip install pandas
 
 pip install Folium
 
@@ -35,18 +35,8 @@ pip install Shapely
 
 pip install Pathlib2
 
-.....
 ```
 
-PackagePandas - version
-item Folium - version
-item Geopandas - version 
-item Shapely - version
-item Pathlib2 - version 
-item Display from Template from jinja2 - version 
-item Datetime - version
-item Os
-item Matplotlib.pyplot
 
 
 ## More resources
