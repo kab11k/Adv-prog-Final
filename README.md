@@ -1,20 +1,17 @@
 
 # Visualizing Fishing effort
 
-in this project we have set ourselves the goal of understanding and getting people to understand how fishing develops in different parts of the world and how it affects different Marine Protected Areas (MPAs), to do this, we developed a map to show the positioning of boats in the various regions of the world during from 2012 to 2020 and also added a layer showing the different Marine Protected Areas (MPAs)
+In this project, we aim to provide an understanding of the extent of global fishing effort, unauthorized transshipment events, and fishing within Marine Protected Areas (MPAs). To do this, we developed a heatmap to show the density of fishing effort leveraging the Automatic Identification System (AIS) satelite positioning of vessels from 2012 to 2020 (provided by Global Fishing Watch) and added layers showing the world's current Marine Protected Areas (MPAs)
 
 ## Motivation
 
-We decided to choose this topic and consequently to develop this map because we believe that the problem of overfishing and illegal fishing related to MPAS is often underestimated, and furthermore, it is a problem that affects everyone.
+We choose this topic and consequently to develop this map, due to the severe state of the world's fisheries and the extent of illegal, unreported, and unregulated (IUU) fishing which is often underestimated, and furthermore, is in need of tools providing transparancy.
 
 ## Method 
 
-we thought that using a very simple and intuitive map for the user allows anyone, by following a few simple steps, to be able to consult the map and consequently realise how extensive the problem is and which are the regions more touched by this problem.
+we created a simple and intuitive map that allows the user to select either a global view or a specific ocean area (as defined by the FAO's major marine areas) in order view and understand that extent of fishing effort.
 
-To create these maps we first had to filter the data we needed, this was done, as the amount of data was very large, by doing this we made our code more efficient.
-We  decided to use the 'folium' library as it is very intuitive for the user. 
-To use this library, we had to convert our data and put it into a 'nested list'.
-We then created a temporal index to allow our map to become a 'timelapse' and finally merged the different databases (fishing effort, encounter and MPAs) into one map.
+We have leveraged python's folium library which allows for the creation of several types of Leaflet maps and features (including heatmap and timelapse capabilities)
 
 
 # Running instructions
@@ -41,7 +38,7 @@ pip install Pathlib2
 
 ## More resources
 
-Data MMSI,Encounter https://globalfishingwatch.org/datasets-and-code/ 
+Data AIS vessel location and fishing effort, Transshipment encounters https://globalfishingwatch.org/datasets-and-code/ 
 
 Data MPAs https://www.protectedplanet.net/en/resources
 
