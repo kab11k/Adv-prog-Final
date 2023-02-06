@@ -44,7 +44,7 @@ Data MPAs https://www.protectedplanet.net/en/resources
 
 Data FAO https://www.fao.org/fishery/en/area/search
 
-##Citations
+## Citations
 
 Copyright 2021, Global Fishing Watch, Inc. Accessed on 18 May 2022, www.globalfishingwatch.org
 
